@@ -5,8 +5,13 @@
     </head>
     
 <body>
-    <video width="100%" height="auto" id="videoPlay" autoplay>      
+    <video width="100%" height="auto" id="autoplay" muted playsinline controls>      
     <source src="video/synopticon.mp4" type="video/mp4">
-    </video>
+    </video>    
+    
+    <script>
+document.getElementById('autoplay').play();
+</script>
+
 </body>
 </html>
